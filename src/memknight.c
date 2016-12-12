@@ -10,8 +10,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "test.h"
 
-int main(void) {
+int main(int argc,char ** argv) {
 	puts("This is github c project");
+	puts(ONE);
 	return EXIT_SUCCESS;
 }
